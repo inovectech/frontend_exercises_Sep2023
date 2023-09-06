@@ -959,18 +959,7 @@ def click_to_graph(next, previous, edit_region_clck, slider_value, edit_ends_clc
 # endregion
 
 def run_dashboard():
-    port_app = os.environ.get('PORT_APP')
-    if not port_app:
-        port_app = 8069
-        for i in range(1, 11):
-            try:
-                app.run_server(debug=False, port=port_app, host="0.0.0.0") #
-                break
-            except OSError as e:
-                print(f"Error running on port {port_app}")
-                port_app += 1
-    else:
-        app.run_server(debug=False, port=port_app, host="0.0.0.0")
+    app.run_server(debug=False, host="0.0.0.0")
 
 
 if __name__ == '__main__':
