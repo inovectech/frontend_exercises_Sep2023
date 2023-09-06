@@ -56,3 +56,4 @@ visdcc==0.0.50
 Werkzeug==2.0.1
 zipp==3.8.1
 Shapely==1.8.5.post1
+kaleido
