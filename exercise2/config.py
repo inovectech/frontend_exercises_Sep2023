@@ -1,0 +1,5 @@
+datapath = 'a_data/'
+dir_detections = datapath + 'con_bird_det_compressed/'
+dir_op_state = datapath + 'conveyor_operator_state/'
+dir_plots = datapath + 'plots/'
+dir_con_translations = datapath + 'conveyor_translations/'
