@@ -16,3 +16,7 @@ Example of how the dashboard should be used is shown on a user's screencast: exe
 # Setup 
 1. Create venv with python3.8 and packages from requirements. 
 2. Running the dashboard 
+```
+cd exercise2/
+python conveyor_tracking_dashboard.py
+```
