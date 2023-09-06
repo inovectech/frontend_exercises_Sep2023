@@ -1,12 +1,12 @@
 # Conveyor tracking dashboard
 
-The following dashboard is designed to track detections of varying quality. It is a time series data of detections as a cross section of some physical space. The main focus of the dashboard is on the matrix (Nrois x Nframes) where roi (region of interest) is scored for a presence of a material on an industrial conveyor. The material does not have a unique appearance and therefore the individual tracking requires, consolidation techniques to average signal over different sources and different single trajectories. 
+The dashboard used for this exercise is designed to connect detections of varying quality into continuous trajectories. On the input, it takes a time series data of detections (horizontal axis of the chart) and the position along the conveyor (vertical axis). The focus of the dashboard is on the matrix (Nrois x Nframes) where roi (region of interest) is scored for a presence of a material on an industrial conveyor moving in steps. The material does not have a unique appearance and therefore, the individual tracking requires consolidation techniques to average signal over different sources and different single trajectories. 
 
-Example of how the dashboard should look like: exercise2/example.webm
+Example of how the dashboard should be used is shown on a user's screencast: exercise2/example.webm
 
 ## Task 
 
-1. Familiriase with the dashboard and the conversions from frames to datetime and roi to physical coordinate y. 
+1. Familiarise with the dashboard and the conversions from frames to datetime and roi to physical coordinate y. 
 2. Add a callback feature which can connect the trajectories on the bottom to the ends of the individual signals located in the upper half. 
 3. Add a saving routine for data where you save: 
  - datetime start of the trajectory
